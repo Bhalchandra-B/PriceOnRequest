@@ -1,4 +1,4 @@
 #!/bin/bash
 mvn clean install
 docker build -t pricerq .
-# to run just docker run pricerq
+echo to run just docker run -p 8090:8090 pricerq
