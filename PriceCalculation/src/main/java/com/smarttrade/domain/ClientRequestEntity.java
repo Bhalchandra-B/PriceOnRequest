@@ -2,18 +2,18 @@ package com.smarttrade.domain;
 
 public class ClientRequestEntity {
 
-	private Integer id;
+	private String productId;
 
 	private Double value1;
 
 	private Double value2;
 
-	public Integer getId() {
-		return id;
+	public String getProductId() {
+		return productId;
 	}
 
-	public void setId(Integer id) {
-		this.id = id;
+	public void setProductId(String productId) {
+		this.productId = productId;
 	}
 
 	public Double getValue1() {

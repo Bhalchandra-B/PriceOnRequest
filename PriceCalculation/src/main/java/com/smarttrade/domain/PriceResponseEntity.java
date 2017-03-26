@@ -1,7 +1,5 @@
 package com.smarttrade.domain;
 
-import java.util.Date;
-
 import org.springframework.stereotype.Component;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
@@ -12,7 +10,7 @@ public class PriceResponseEntity {
 
 	private Double price;
 
-	private Date date;
+	private String date;
 
 	public Double getPrice() {
 		return price;
@@ -22,11 +20,11 @@ public class PriceResponseEntity {
 		this.price = price;
 	}
 
-	public Date getDate() {
+	public String getDate() {
 		return date;
 	}
 
-	public void setDate(Date date) {
+	public void setDate(String date) {
 		this.date = date;
 	}
 }
