@@ -20,7 +20,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 import com.jayway.restassured.response.Response;
 
 //**To run the test 'PriceCalculation' microservice should be started before **// 
-
 @RunWith(SpringRunner.class)
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 public class PriceResponseEndPointTest {
